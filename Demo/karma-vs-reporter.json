@@ -1,4 +1,10 @@
 ﻿{
+    "ServerMode": true,
+    "ServerPort": 3535,
+    "LogToFile": true,
+    "TestFiles": [ "test/**/*.js" ],
+    "LogDirectory": "KarmaTestAdapter",
+    "OutputDirectory": "KarmaTestAdapter/Output",
     "config": {
         "browsers": [
             "PhantomJS"

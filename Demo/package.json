@@ -4,7 +4,7 @@
     "karma-chrome-launcher": "^0.1.4",
     "karma-jasmine": "^0.1.5",
     "karma-phantomjs-launcher": "^0.1.4",
-    "karma-vs-reporter": "^0.5.5"
+    "karma-vs-reporter": "^0.7.0"
   },
   "private": true
 }
