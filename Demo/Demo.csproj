@@ -75,9 +75,6 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="karma-vs-reporter.json" />
-  </ItemGroup>
-  <ItemGroup>
     <TypeScriptCompile Include="test\TypescriptTests.ts" />
     <TypeScriptCompile Include="typings\jasmine\jasmine.d.ts" />
   </ItemGroup>
@@ -85,6 +82,9 @@
     <Content Include="test\TypescriptTests.js.map">
       <DependentUpon>TypescriptTests.ts</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="karma-vs-reporter.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -110,7 +110,6 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties karma-vs-reporter_1json__JSONSchema="https://raw.githubusercontent.com/MortenHoustonLudvigsen/KarmaTestAdapter/master/KarmaTestAdapter/karma-vs-reporter.schema.json" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
