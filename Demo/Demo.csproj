@@ -110,6 +110,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
+      <UserProperties karma-vs-reporter_1json__JSONSchema="https://raw.githubusercontent.com/MortenHoustonLudvigsen/KarmaTestAdapter/master/KarmaTestAdapter/karma-vs-reporter.schema.json" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

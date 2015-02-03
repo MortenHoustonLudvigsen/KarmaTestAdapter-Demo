@@ -1,4 +1,5 @@
 ﻿{
+    "$schema": "https://raw.githubusercontent.com/MortenHoustonLudvigsen/KarmaTestAdapter/master/KarmaTestAdapter/karma-vs-reporter.schema.json",
     "ServerMode": true,
     "ServerPort": 3535,
     "LogToFile": true,
